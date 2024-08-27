@@ -1,0 +1,72 @@
+#btnNo {
+    position: absolute;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    /* color: black; */
+    /* width: 250px; */
+    text-align: center;
+    margin: 30px auto;
+    border: 10px solid transparent;
+    border-image: url("vien1.jpg") 30 round;
+    padding: 20px;
+    background-image: linear-gradient(90deg, #756a63,#d7c8c3);
+}
+
+
+body {
+    background: #7d6bb9;
+    background-image: url("./bg.png");
+    background-size: 101%;
+}
+
+#loveQuestion {
+    color: white;
+  position: absolute;
+  left: 220px;
+  top: 230px;
+  font-size: 80px;
+
+  
+}
+
+input {
+  width: 200px;
+  font-size: 30px;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+}
+
+#btnYes {
+  position: absolute;
+  left: 600px;
+  top: 450px;
+  background-color: #526460;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+#btnNo {
+  position: absolute;
+  left: 900px;
+  top: 450px;
+  background-color: #7e3d54;
+  transition: 0.3s;
+  border-radius: 15px;
+}
+
+
+canvas {
+    display: block;
+}
+
